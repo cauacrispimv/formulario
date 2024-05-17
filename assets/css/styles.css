@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-body {
+body{
     background-image: url('../img/grey-background.jpg');
     background-size: cover;
     background-position: top center;
@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
 }
 
-header {
+header{
     border-radius: 0px 0px 300% 20%;
     background-color: #054552;
     box-shadow: .1vw .1vw 1.2vw rgba(0, 0, 0, 0.708);
@@ -23,55 +23,55 @@ header {
     width: 100%; 
 }
 
-h1 {
+h1{
     color: white; 
     text-align: center;
     margin-bottom: 10px; 
 }
 
-nav {
+nav{
     text-align: center; 
 }
 
-nav > ul {
+nav > ul{
     display: inline-block; 
     list-style-type: none; 
     padding: 0;
 }
 
-nav > ul > li {
+nav > ul > li{
     display: inline;
     margin-right: 20px; 
 }
 
-nav > ul > li > a {
+nav > ul > li > a{
     color: white;
     text-decoration: none;
 }
 
-main {
+main{
     margin-top: 50px;
     text-align: center;
 }
 
-form {
+form{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-label {
+label{
     width: 100px;
 }
 
 input,
-textarea {
+textarea{
     width: 300px;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-textarea {
+textarea{
     height: 150px;
     resize: none;
 }
@@ -88,23 +88,27 @@ footer {
     text-align: center;
 }
 
-.container {
+.nav_li:hover{
+    color: rgb(255, 255, 0);
+}
+
+.container{
     max-width: 400px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: rgba(255, 255, 255, 0.864);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.container label {
+.container label{
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
 }
 
 .container input,
-.container textarea {
+.container textarea{
     padding: 10px;
     margin-bottom: 20px;
     box-sizing: border-box;
@@ -112,12 +116,12 @@ footer {
     border-radius: 5px;
 }
 
-.container > textarea {
+.container > textarea{
     height: 150px;
     resize: none;
 }
 
-#button01 {
+#button01{
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
@@ -127,7 +131,7 @@ footer {
     transition: background-color 0.3s;
 }
 
-#button01:hover {
+#button01:hover{
     background-color: #3a8c3e;
 }
 
