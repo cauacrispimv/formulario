@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site | Formulário</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="mainTitle1">Formulário de Contato</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Ajuda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Preencha abaixo:</h2>
+        <div class="container">
+            <form id="myForm" action="resultado.html" method="get">
+                
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Ex: José dos Santos" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Ex: meu_email123@gmail.com" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cauã Crispim - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
