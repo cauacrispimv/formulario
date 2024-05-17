@@ -32,18 +32,18 @@ nav {
     text-align: center; 
 }
 
-nav ul {
+nav > ul {
     display: inline-block; 
     list-style-type: none; 
     padding: 0;
 }
 
-nav ul li {
+nav > ul > li {
     display: inline;
     margin-right: 20px; 
 }
 
-nav ul li a {
+nav > ul > li > a {
     color: white;
     text-decoration: none;
 }
@@ -70,8 +70,9 @@ nav ul li a {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px; 
+    transition: background-color 0.3s;
 }
 
 #btnVoltar:hover {
-    background-color: #45a049;
+    background-color: #3a8c3e;
 }
