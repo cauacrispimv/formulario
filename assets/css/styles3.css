@@ -75,7 +75,6 @@ nav > ul > li > a{
     position: relative;
 }
 
-
 .alinhador{
     box-shadow: .1vw .1vw 1.2vw rgba(0, 0, 0, 0.44);
     display: flex;
